@@ -71,32 +71,6 @@ media_player:
   - platform: plex
 
 sensor:
-#  - platform: yweather
-#    wohid: 544460
-#    name: heute
-#    forecast: 0
-#    monitored_conditions:
-#      - weather
-#      - temp_min
-#      - temp_max
-
-#  - platform: yweather
-#    wohid: 544460
-#    forecast: 1
-#    name: morgen
-#    monitored_conditions:
-#      - weather
-#      - temp_min
-#      - temp_max
-
-#  - platform: yweather
-#    wohid: 544460
-#    forecast: 2
-#    name: uebermorgen
-#    monitored_conditions:
-#      - weather
-#      - temp_min
-#      - temp_max
   - platform: cpuspeed
   - platform: yr
   - platform: wunderground
@@ -124,12 +98,6 @@ sensor:
     qos: 0
     unit_of_measurement: "ºC"
 
-#  - platform: openweathermap
-#    api_key: 54b07dfe7e3bcfc5c0a5aee7bcefea1d
-#    name: Wolfsbach_openweather
-#    monitored_conditions:
-#      - weather
-
   - platform: waqi
     token: cd3ae1708b5017cc753ee0f51d0aee4155f7b471
     locations:
@@ -143,15 +111,6 @@ device_tracker:
     hosts: 192.168.1.1/24
     home_interval: 120
 
-#device_tracker:
-#  - platform: ddwrt
-#    host: 192.168.1.1
-#    username: etzi
-#    password: 152253
-#    track_new_devices: yes
-#    interval_seconds: 10
-#    consider_home: 180
-
 ffmpeg:
   ffmpeg_bin: /usr/bin/avconv
 
@@ -161,5 +120,3 @@ camera:
     name: W3
 
 wemo:
-#  static:
-#    - 192.168.1.103
