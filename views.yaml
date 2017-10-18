@@ -1,0 +1,12 @@
+default_view:
+  view: yes
+  entities:
+  - group.weather
+
+weather_view:
+  name: Wetter
+  view: yes
+  entities:
+  - group.weather
+
+

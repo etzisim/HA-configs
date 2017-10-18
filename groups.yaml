@@ -1,0 +1,51 @@
+weather_view:
+  name: Wetter
+  view: true
+  entities:
+  - group.weather
+  - group.weather_today
+  - group.weather_tomorrow
+  - group.weather_the_day_after_tomorrow
+tracker_view:
+  name: Netzwerk
+  view: true
+  entities:
+  - group.net_tracker
+radio_view:
+  name: Radio
+  view: true
+  entities:
+  - media_player.terrasse
+weather:
+  name: Echtzeit
+  entities:
+  - sun.sun
+  - sensor.pws_temp_c
+  - sensor.pws_feelslike_c
+  - sensor.pws_weather
+  - sensor.waqi_gimpersdorf
+weather_today:
+  name: heute
+  entities:
+  - sensor.pws_temp_low_1d_c
+  - sensor.pws_temp_high_1d_c
+  - sensor.pws_weather_1d_metric
+  view: false
+weather_tomorrow:
+  name: morgen
+  entities:
+  - sensor.pws_temp_low_2d_c
+  - sensor.pws_temp_high_2d_c
+  - sensor.pws_weather_2d_metric
+  view: false
+weather_the_day_after_tomorrow:
+  name: "\xFCbermorgen"
+  entities:
+  - sensor.pws_temp_low_3d_c
+  - sensor.pws_temp_high_3d_c
+  - sensor.pws_weather_3d_metric
+  view: false
+net_tracker:
+  name: Network Tracker
+  entities:
+  - device_tracker.simon_p9

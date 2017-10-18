@@ -1,0 +1,165 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 48.0711
+  longitude: 14.6720
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 344
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Vienna
+  customize: !include customize.yaml
+
+
+# Show links to resources in log and frontend
+#introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  # api_password: PASSWORD
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
+  server_port: 80
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+# View all events in a logbook
+logbook:
+
+# Track the sun
+sun:
+
+# Weather Prediction
+#sensor:
+#  platform: yr
+
+# Text to speech
+tts:
+  - platform: google
+    language: 'de'
+
+mqtt:
+#  embedded:
+  broker: 127.0.0.1
+
+group: !include groups.yaml
+
+#Plex TEst
+media_player:
+  - platform: plex
+
+sensor:
+#  - platform: yweather
+#    wohid: 544460
+#    name: heute
+#    forecast: 0
+#    monitored_conditions:
+#      - weather
+#      - temp_min
+#      - temp_max
+
+#  - platform: yweather
+#    wohid: 544460
+#    forecast: 1
+#    name: morgen
+#    monitored_conditions:
+#      - weather
+#      - temp_min
+#      - temp_max
+
+#  - platform: yweather
+#    wohid: 544460
+#    forecast: 2
+#    name: uebermorgen
+#    monitored_conditions:
+#      - weather
+#      - temp_min
+#      - temp_max
+  - platform: cpuspeed
+  - platform: yr
+  - platform: wunderground
+    api_key: 0ca58df121c2d3b3
+    pws_id: ISANKTPE73
+    lang: DL
+    monitored_conditions:
+      - feelslike_c
+      # - heat_index_c
+      - temp_c
+      - weather
+      - temp_high_1d_c
+      - temp_high_2d_c
+      - temp_high_3d_c
+      - temp_low_1d_c
+      - temp_low_2d_c
+      - temp_low_3d_c
+      - weather_1d_metric
+      - weather_2d_metric
+      - weather_3d_metric
+
+  - platform: mqtt
+    name: "Temperatur innen"
+    state_topic: "home-assistant/temp/inside"
+    qos: 0
+    unit_of_measurement: "ºC"
+
+#  - platform: openweathermap
+#    api_key: 54b07dfe7e3bcfc5c0a5aee7bcefea1d
+#    name: Wolfsbach_openweather
+#    monitored_conditions:
+#      - weather
+
+  - platform: waqi
+    token: cd3ae1708b5017cc753ee0f51d0aee4155f7b471
+    locations:
+      - gimpersdorf
+
+
+###Device Tracker
+
+device_tracker:
+  - platform: nmap_tracker
+    hosts: 192.168.1.1/24
+    home_interval: 120
+
+#device_tracker:
+#  - platform: ddwrt
+#    host: 192.168.1.1
+#    username: etzi
+#    password: 152253
+#    track_new_devices: yes
+#    interval_seconds: 10
+#    consider_home: 180
+
+ffmpeg:
+  ffmpeg_bin: /usr/bin/avconv
+
+camera:
+  - platform: ffmpeg
+    input: rtsp://view:viewonly@192.168.1.148:554/live/ch1
+    name: W3
+
+wemo:
+#  static:
+#    - 192.168.1.103

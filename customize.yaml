@@ -1,0 +1,30 @@
+sensor.waqi_gimpersdorf:
+  friendly_name: Feinstaubbelastung
+sun.sun:
+  friendly_name: Sonnenstand
+sensor.heute_condition:
+  friendly_name: Wetterlage
+sensor.heute_temperature_max:
+  friendly_name: Temperatur max
+sensor.heute_temperature_min:
+  friendly_name: Temperatur min
+sensor.morgen_condition:
+  friendly_name: Wetterlage
+sensor.morgen_temperature_max:
+  friendly_name: Temperatur max
+sensor.morgen_temperature_min:
+  friendly_name: Temperatur min
+sensor.uebermorgen_condition:
+  friendly_name: Wetterlage
+sensor.uebermorgen_temperature_max:
+  friendly_name: Temperatur max
+sensor.uebermorgen_temperature_min:
+  friendly_name: Temperatur min
+sensor.pws_weather:
+  friendly_name: Wetter
+sensor.pws_feelslike_c:
+  friendly_name: "Gef\xFChlt"
+sensor.pws_temp_c:
+  friendly_name: Temperatur
+switch.xyz1:
+  friendly_name: Licht 1

@@ -1,0 +1,429 @@
+##DEVS
+
+68967b190a77:
+  hide_if_away: false
+  mac: 68:96:7B:19:0A:77
+  name: 68967b190a77
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+simon_p9:
+  hide_if_away: false
+  mac: B0:89:00:E5:A4:0F
+  name: "Simon p9 lite"
+  picture:
+  track: true
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+androidfdcc2f36f9655f51:
+  hide_if_away: true
+  mac: A0:02:DC:AD:29:AC
+  name: android-fdcc2f36f9655f51
+  picture:
+  track: true
+  vendor: Amazon Technologies Inc.
+
+f4f26d70b182:
+  hide_if_away: false
+  mac: F4:F2:6D:70:B1:82
+  name: f4f26d70b182
+  picture:
+  track: true
+  vendor: TP-LINK TECHNOLOGIES CO.,LTD.
+
+8cc8cdeeba43:
+  hide_if_away: false
+  mac: 8C:C8:CD:EE:BA:43
+  name: 8cc8cdeeba43
+  picture:
+  track: true
+  vendor: Samsung Electronics Co.,Ltd
+
+001dec0901d5:
+  hide_if_away: false
+  mac: 00:1D:EC:09:01:D5
+  name: 001dec0901d5
+  picture:
+  track: true
+  vendor: Marusys
+
+001ba9ac8b4e:
+  hide_if_away: false
+  mac: 00:1B:A9:AC:8B:4E
+  name: 001ba9ac8b4e
+  picture:
+  track: true
+  vendor: Brother industries, LTD.
+
+14cc20b4f2f6:
+  hide_if_away: false
+  mac: 14:CC:20:B4:F2:F6
+  name: 14cc20b4f2f6
+  picture:
+  track: true
+  vendor: TP-LINK TECHNOLOGIES CO.,LTD.
+
+60e3274fee9b:
+  hide_if_away: false
+  mac: 60:E3:27:4F:EE:9B
+  name: 60e3274fee9b
+  picture:
+  track: true
+  vendor: TP-LINK TECHNOLOGIES CO.,LTD.
+
+20689df6f36d:
+  hide_if_away: false
+  mac: 20:68:9D:F6:F3:6D
+  name: 20689df6f36d
+  picture:
+  track: true
+  vendor: Liteon Technology Corporation
+
+74811463347d:
+  hide_if_away: false
+  mac: 74:81:14:63:34:7D
+  name: 74811463347d
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+10feede5dbc1:
+  hide_if_away: false
+  mac: 10:FE:ED:E5:DB:C1
+  name: 10feede5dbc1
+  picture:
+  track: true
+  vendor: TP-LINK TECHNOLOGIES CO.,LTD.
+
+0022612386dc:
+  hide_if_away: false
+  mac: 00:22:61:23:86:DC
+  name: 0022612386dc
+  picture:
+  track: true
+  vendor: Frontier Silicon Ltd
+
+0c47c9e4a32c:
+  hide_if_away: false
+  mac: 0C:47:C9:E4:A3:2C
+  name: 0c47c9e4a32c
+  picture:
+  track: true
+  vendor: Amazon Technologies Inc.
+
+0011323c49b0:
+  hide_if_away: false
+  mac: 00:11:32:3C:49:B0
+  name: 0011323c49b0
+  picture:
+  track: true
+  vendor: Synology Incorporated
+
+0022b0ef0f4b:
+  hide_if_away: false
+  mac: 00:22:B0:EF:0F:4B
+  name: 0022b0ef0f4b
+  picture:
+  track: true
+  vendor: D-Link Corporation
+
+24da9b411a1f:
+  hide_if_away: false
+  mac: 24:DA:9B:41:1A:1F
+  name: 24da9b411a1f
+  picture:
+  track: true
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+001a4d558dc0:
+  hide_if_away: false
+  mac: 00:1A:4D:55:8D:C0
+  name: 001a4d558dc0
+  picture:
+  track: true
+  vendor: unknown
+
+34e6adf902db:
+  hide_if_away: false
+  mac: 34:E6:AD:F9:02:DB
+  name: 34e6adf902db
+  picture:
+  track: true
+  vendor: Intel Corporate
+
+50e54959fa11:
+  hide_if_away: false
+  mac: 50:E5:49:59:FA:11
+  name: 50e54959fa11
+  picture:
+  track: true
+  vendor: GIGA-BYTE TECHNOLOGY CO.,LTD.
+
+1c675891fd8b:
+  hide_if_away: false
+  mac: 1C:67:58:91:FD:8B
+  name: 1c675891fd8b
+  picture:
+  track: true
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+e8b4c8ebb055:
+  hide_if_away: false
+  mac: E8:B4:C8:EB:B0:55
+  name: e8b4c8ebb055
+  picture:
+  track: true
+  vendor: Samsung Electronics Co.,Ltd
+
+8c0d765d2a00:
+  hide_if_away: false
+  mac: 8C:0D:76:5D:2A:00
+  name: 8c0d765d2a00
+  picture:
+  track: true
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+00e04c3640fe:
+  hide_if_away: false
+  mac: 00:E0:4C:36:40:FE
+  name: 00e04c3640fe
+  picture:
+  track: true
+  vendor: REALTEK SEMICONDUCTOR CORP.
+
+00b36292b184:
+  hide_if_away: false
+  mac: 00:B3:62:92:B1:84
+  name: 00b36292b184
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+dc86d8157fe1:
+  hide_if_away: false
+  mac: DC:86:D8:15:7F:E1
+  name: dc86d8157fe1
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+34363bd536ba:
+  hide_if_away: false
+  mac: 34:36:3B:D5:36:BA
+  name: 34363bd536ba
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+78e400152291:
+  hide_if_away: false
+  mac: 78:E4:00:15:22:91
+  name: 78e400152291
+  picture:
+  track: true
+  vendor: Hon Hai Precision Ind. Co.,Ltd.
+
+00262da20375:
+  hide_if_away: false
+  mac: 00:26:2D:A2:03:75
+  name: 00262da20375
+  picture:
+  track: true
+  vendor: Wistron Corporation
+
+ec1f7204485a:
+  hide_if_away: false
+  mac: EC:1F:72:04:48:5A
+  name: ec1f7204485a
+  picture:
+  track: true
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+0017884d36d7:
+  hide_if_away: false
+  mac: 00:17:88:4D:36:D7
+  name: 0017884d36d7
+  picture:
+  track: true
+  vendor: Philips Lighting BV
+
+54ee755b8fdb:
+  hide_if_away: false
+  mac: 54:EE:75:5B:8F:DB
+  name: 54ee755b8fdb
+  picture:
+  track: true
+  vendor: Wistron InfoComm(Kunshan)Co.,Ltd.
+
+fc3f7cb2761c:
+  hide_if_away: false
+  mac: FC:3F:7C:B2:76:1C
+  name: fc3f7cb2761c
+  picture:
+  track: true
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+000b818613e1:
+  hide_if_away: false
+  mac: 00:0B:81:86:13:E1
+  name: 000b818613e1
+  picture:
+  track: true
+  vendor: Kaparel Corporation
+
+76c0e95930de:
+  hide_if_away: false
+  mac: 76:C0:E9:59:30:DE
+  name: 76c0e95930de
+  picture:
+  track: true
+  vendor: unknown
+
+002215533ce2:
+  hide_if_away: false
+  mac: 00:22:15:53:3C:E2
+  name: 002215533ce2
+  picture:
+  track: true
+  vendor: ASUSTek COMPUTER INC.
+
+78a5dd115388:
+  hide_if_away: false
+  mac: 78:A5:DD:11:53:88
+  name: 78a5dd115388
+  picture:
+  track: true
+  vendor: unknown
+
+28f36662dc71:
+  hide_if_away: false
+  mac: 28:F3:66:62:DC:71
+  name: 28f36662dc71
+  picture:
+  track: true
+  vendor: Shenzhen Bilian electronic CO.,LTD
+
+58404e36296f:
+  hide_if_away: false
+  mac: 58:40:4E:36:29:6F
+  name: 58404e36296f
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+b0702d9ebb37:
+  hide_if_away: false
+  mac: B0:70:2D:9E:BB:37
+  name: b0702d9ebb37
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+70480f6f855d:
+  hide_if_away: false
+  icon:
+  mac: 70:48:0F:6F:85:5D
+  name: 70480f6f855d
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+f48c50e065b9:
+  hide_if_away: false
+  icon:
+  mac: F4:8C:50:E0:65:B9
+  name: f48c50e065b9
+  picture:
+  track: true
+  vendor: Intel Corporate
+
+a020a62523a3:
+  hide_if_away: false
+  icon:
+  mac: A0:20:A6:25:23:A3
+  name: a020a62523a3
+  picture:
+  track: true
+  vendor: Espressif Inc.
+
+a020a6251df3:
+  hide_if_away: false
+  icon:
+  mac: A0:20:A6:25:1D:F3
+  name: a020a6251df3
+  picture:
+  track: true
+  vendor: Espressif Inc.
+
+8cebc6f659dd:
+  hide_if_away: false
+  icon:
+  mac: 8C:EB:C6:F6:59:DD
+  name: 8cebc6f659dd
+  picture:
+  track: true
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+ac5f3e786e3a:
+  hide_if_away: false
+  icon:
+  mac: AC:5F:3E:78:6E:3A
+  name: ac5f3e786e3a
+  picture:
+  track: true
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+2059a007087e:
+  hide_if_away: false
+  icon:
+  mac: 20:59:A0:07:08:7E
+  name: 2059a007087e
+  picture:
+  track: true
+  vendor: Paragon Technologies Inc.
+
+iphonevnpatrick:
+  hide_if_away: false
+  icon:
+  mac: CC:25:EF:11:1A:CA
+  name: iPhonevnPatrick
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+userpc:
+  hide_if_away: false
+  icon:
+  mac: 00:22:5F:7D:F3:57
+  name: User-PC
+  picture:
+  track: true
+  vendor: Liteon Technology Corporation
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac: DC:41:5F:82:96:2F
+  name: iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+raspberrypi:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:D9:1E:96
+  name: raspberrypi
+  picture:
+  track: true
+  vendor: Raspberry Pi Foundation
+
+iphone_2:
+  hide_if_away: false
+  icon:
+  mac: BC:4C:C4:25:2B:0F
+  name: iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
